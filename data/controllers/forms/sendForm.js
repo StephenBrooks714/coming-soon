@@ -19,11 +19,11 @@ module.exports = (req, res) => {
     const from = req.body;
     const path = require("path");
     const mailDetails = {
-        to: 'swagner@bluematterconsulting.com',
+        to: 'Awagner@jakksmgmt.com',
         from: from,
         envelope: {
             from: 'from', // used as MAIL FROM: address for SMTP
-            to: 'swagner@bluematterconsulting.com, Mailer <swagner@bluematterconsulting.com>'
+            to: 'Awagner@jakksmgmt.com, Mailer <Awagner@jakksmgmt.com>'
         },
         replyTo: from,
         subject: "You got mail",
